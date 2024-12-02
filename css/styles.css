@@ -1,0 +1,97 @@
+/* Corpo padrão */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar personalizada */
+.custom-navbar {
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #3700b3;
+}
+
+.custom-navbar .nav-link {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #f0db4f;
+    text-decoration: underline;
+}
+
+.custom-navbar .custom-btn {
+    background-color: #f0db4f;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-navbar .custom-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo estilizada */
+.logo-text {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+}
+
+.logo-text:hover {
+    color: #f0db4f;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa;
+}
+
+.hero h1 {
+    color: #333;
+}
+
+.hero p {
+    color: #666;
+}
+
+/* Botão padrão */
+.btn-primary {
+    background-color: #6200ea;
+    border-color: #6200ea;
+}
+
+.btn-primary:hover {
+    background-color: #3700b3;
+    border-color: #3700b3;
+}
+
+/* Features Section */
+.features h5 {
+    color: #333;
+}
+
+.features p {
+    color: #666;
+}
+
+.frase {
+    font-family: 'Montserrat', sans-serif;
+    color: purple;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: white;
+}
